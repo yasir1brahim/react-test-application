@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #393939;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1920px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.topbar {
+	border-bottom: 1px solid #5b5b6c;
+}
+
+.logo_bar {
+	width: 17.448vw;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.menu_bar {
+	width: 70%;
+	display: inline-block;
+}
+
+.menu_bar .menu-inner li {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	margin: 18px 5px;
+}
+
+.menu_bar .menu-inner {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu_bar .menu-inner li.active a {
+	background: #5b5b6c;
+	border-right: 4px solid #ffff00;
+}
+
+.menu_bar .menu-inner li a {
+	text-decoration: none;
+	padding: 18px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.app-brand.demo {
+	overflow: hidden;
+}
+
+.layout-page {
+	width: 98%;
+	margin: 20px auto;
+}
+
+.border-box {
+	border: 1px solid #272727;
+	padding: 15px;
+}
+
+.border-box h2 {
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+.border-box .form-control label {
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 80px;
+}
+
+.row-box .col-box-3 {
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.border-box .form-control input {
+	background: #272727;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	width: 69%;
+	padding: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.form-control {
+	padding-bottom: 10px;
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+}
+
+.col-box-2 {
+	width: 7%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.box-button {
+	background: #272727;
+	border-radius: 10px;
+	padding: 14px;
+	margin: 0px 10px;
+}
+
+.box-button ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+}
+
+.box-button ul li a img {
+	width: 100%;
+	max-width: 50px;
+}
+
+.box-button ul li {
+	text-align: center;
+	padding: 5px 0px 0;
+}
+
+.box-button ul li:last-child {
+	margin-bottom: 0px;
+}
